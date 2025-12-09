@@ -2,7 +2,7 @@
 == "no" %}
 <script>
   alert('Your Message has been Send Successfully');
-  window.location='{% url 'contact' %}';
+  window.location=('{% url 'contact' %}');
 </script>
 {% endif %} {% if error == "yes" %}
 <script>
